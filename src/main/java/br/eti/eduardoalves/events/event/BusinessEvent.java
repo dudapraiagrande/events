@@ -4,12 +4,12 @@ import java.util.EventObject;
 
 import br.eti.eduardoalves.events.model.Pojo;
 
-public class BussinessEvent extends EventObject {
+public class BusinessEvent extends EventObject {
 
 	private static final long serialVersionUID = 1L;
 	private final Pojo pojo;
 
-	public BussinessEvent(Object source, Pojo pojo) {
+	public BusinessEvent(Object source, Pojo pojo) {
 		super(source);
 		this.pojo = pojo;
 	}
